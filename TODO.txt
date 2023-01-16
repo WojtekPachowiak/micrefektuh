@@ -1,0 +1,13 @@
+1. get microphone input as stream
+(PyAudio: https://stackoverflow.com/questions/35344649/reading-input-sound-signal-using-python)
+
+2. get chunk's from stream and apply effects over input 
+(possibly pedalboard's Pedalboard object can do it; also check out SoX: 
+https://github.com/schelcc/sox-live-effect-wrapper
+https://github.com/pseeth/soxbindings
+https://github.com/rabitt/pysox)
+
+3. write chunks to some audio output channel 
+(PyAudio: https://stackoverflow.com/questions/31674416/python-realtime-audio-streaming-with-pyaudio-or-something-else)
+
+4. Display UI through which parameters of effects can be tweaked
